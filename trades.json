@@ -76,5 +76,31 @@
     "redeemed": true,
     "redeem_txhash": null,
     "market_outcome": "DOWN"
+  },
+  {
+    "timestamp": "2026-03-07T15:11:46.677287+00:00",
+    "market": "btc-updown-15m-1772895600",
+    "side": "DOWN",
+    "us_hours": true,
+    "strike": 67983.44,
+    "btc_price_at_entry": 67942.71,
+    "vol_annual": 0.1851,
+    "sigma_sqrt_T": 0.046,
+    "prob_at_entry": 0.9035,
+    "edge_at_entry": 0.0035,
+    "bs_decision": "BUY_NOT_FILLED",
+    "bs_reason": "Edge B&S positif: +0.0035 (prob=90.35%, ask=0.90)",
+    "buy_price": 0.9,
+    "buy_size": 10.0,
+    "buy_filled": false,
+    "buy_filled_size": 0,
+    "sell_price": 0.99,
+    "sell_filled": false,
+    "sell_filled_size": 0,
+    "pnl_usdc": null,
+    "market_resolved": null,
+    "redeemed": false,
+    "redeem_txhash": null,
+    "market_outcome": null
   }
 ]
