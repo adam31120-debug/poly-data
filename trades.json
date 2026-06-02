@@ -49222,6 +49222,9 @@
     "buy_size": 1.16,
     "buy_filled": true,
     "sl_price": 0.61,
-    "balance_before": null
+    "balance_before": null,
+    "market_outcome": "WON",
+    "redeemed": true,
+    "pnl_usdc": 0.0
   }
 ]
