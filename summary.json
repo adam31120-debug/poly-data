@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-02T20:44:12.964650+00:00",
+  "updated_at": "2026-06-02T20:49:10.245330+00:00",
   "bot": {
-    "started_at": "2026-06-02T20:15:33.956157+00:00",
-    "uptime_seconds": 1719
+    "started_at": "2026-06-02T20:44:06.362287+00:00",
+    "uptime_seconds": 303
   },
   "config": {
     "strategy": "delta_anomaly",
@@ -14,9 +14,9 @@
     "no_buy_window_max_s": 300
   },
   "current_market": {
-    "slug": "btc-updown-5m-1780432800",
-    "strike": 67190.47151876359,
-    "end_time": 1780433100
+    "slug": "btc-updown-5m-1780433100",
+    "strike": 67199.0463,
+    "end_time": 1780433400
   },
   "session_stats": {
     "trades_count": 0,
@@ -29,170 +29,19 @@
     "gross_buy_usdc": 0.0
   },
   "lifetime_stats": {
-    "trades_count": 2023,
-    "resolved": 1811,
-    "pending": 212,
-    "wins": 1019,
-    "losses": 369,
-    "flats": 423,
-    "net_pnl_usdc": -1000.8948,
-    "gross_buy_usdc": 5848.8889
+    "trades_count": 0,
+    "resolved": 0,
+    "pending": 0,
+    "wins": 0,
+    "losses": 0,
+    "flats": 0,
+    "net_pnl_usdc": 0.0,
+    "gross_buy_usdc": 0.0
   },
   "db_stats": {
-    "snapshots_count": 3261,
+    "snapshots_count": 590,
     "trades_events_count": 0
   },
-  "trades_total_logged": 2023,
-  "recent_trades": [
-    {
-      "timestamp": "2026-05-05T20:59:15.135502+00:00",
-      "market": "btc-updown-5m-1778014500",
-      "side": "UP",
-      "buy_price": 0.8,
-      "buy_filled_size": null,
-      "sell_filled": false,
-      "market_outcome": "WON",
-      "redeemed": true,
-      "pnl_usdc": 0.0,
-      "edge_at_entry": null,
-      "prob_at_entry": null,
-      "strike": null,
-      "btc_price_at_entry": null
-    },
-    {
-      "timestamp": "2026-05-05T23:09:48.924523+00:00",
-      "market": "btc-updown-5m-1778022300",
-      "side": "DOWN",
-      "buy_price": 0.4,
-      "buy_filled_size": null,
-      "sell_filled": false,
-      "market_outcome": "LOST",
-      "redeemed": false,
-      "pnl_usdc": -1.0,
-      "edge_at_entry": null,
-      "prob_at_entry": null,
-      "strike": null,
-      "btc_price_at_entry": null
-    },
-    {
-      "timestamp": "2026-05-05T23:09:56.604496+00:00",
-      "market": "btc-updown-5m-1778022300",
-      "side": "DOWN",
-      "buy_price": null,
-      "buy_filled_size": null,
-      "sell_filled": false,
-      "market_outcome": null,
-      "redeemed": null,
-      "pnl_usdc": -0.625,
-      "edge_at_entry": null,
-      "prob_at_entry": null,
-      "strike": null,
-      "btc_price_at_entry": null
-    },
-    {
-      "timestamp": "2026-05-06T01:14:22.553321+00:00",
-      "market": "btc-updown-5m-1778029800",
-      "side": "UP",
-      "buy_price": 0.4,
-      "buy_filled_size": null,
-      "sell_filled": false,
-      "market_outcome": "WON",
-      "redeemed": true,
-      "pnl_usdc": 0.0,
-      "edge_at_entry": null,
-      "prob_at_entry": null,
-      "strike": null,
-      "btc_price_at_entry": null
-    },
-    {
-      "timestamp": "2026-05-06T01:39:05.682491+00:00",
-      "market": "btc-updown-5m-1778031300",
-      "side": "UP",
-      "buy_price": 0.56,
-      "buy_filled_size": null,
-      "sell_filled": false,
-      "market_outcome": "LOST",
-      "redeemed": false,
-      "pnl_usdc": -0.9968,
-      "edge_at_entry": null,
-      "prob_at_entry": null,
-      "strike": null,
-      "btc_price_at_entry": null
-    },
-    {
-      "timestamp": "2026-05-06T01:39:38.514120+00:00",
-      "market": "btc-updown-5m-1778031300",
-      "side": "UP",
-      "buy_price": null,
-      "buy_filled_size": null,
-      "sell_filled": false,
-      "market_outcome": null,
-      "redeemed": null,
-      "pnl_usdc": -0.445,
-      "edge_at_entry": null,
-      "prob_at_entry": null,
-      "strike": null,
-      "btc_price_at_entry": null
-    },
-    {
-      "timestamp": "2026-05-06T01:44:28.841331+00:00",
-      "market": "btc-updown-5m-1778031600",
-      "side": "UP",
-      "buy_price": 0.5,
-      "buy_filled_size": null,
-      "sell_filled": false,
-      "market_outcome": "LOST",
-      "redeemed": false,
-      "pnl_usdc": -1.0,
-      "edge_at_entry": null,
-      "prob_at_entry": null,
-      "strike": null,
-      "btc_price_at_entry": null
-    },
-    {
-      "timestamp": "2026-05-06T01:45:01.286967+00:00",
-      "market": "btc-updown-5m-1778031600",
-      "side": "UP",
-      "buy_price": null,
-      "buy_filled_size": null,
-      "sell_filled": false,
-      "market_outcome": null,
-      "redeemed": null,
-      "pnl_usdc": -0.5,
-      "edge_at_entry": null,
-      "prob_at_entry": null,
-      "strike": null,
-      "btc_price_at_entry": null
-    },
-    {
-      "timestamp": "2026-05-06T02:09:04.213612+00:00",
-      "market": "btc-updown-5m-1778033100",
-      "side": "DOWN",
-      "buy_price": 0.5,
-      "buy_filled_size": null,
-      "sell_filled": false,
-      "market_outcome": "LOST",
-      "redeemed": false,
-      "pnl_usdc": -1.0,
-      "edge_at_entry": null,
-      "prob_at_entry": null,
-      "strike": null,
-      "btc_price_at_entry": null
-    },
-    {
-      "timestamp": "2026-05-06T02:09:42.536919+00:00",
-      "market": "btc-updown-5m-1778033100",
-      "side": "DOWN",
-      "buy_price": null,
-      "buy_filled_size": null,
-      "sell_filled": false,
-      "market_outcome": null,
-      "redeemed": null,
-      "pnl_usdc": -0.5,
-      "edge_at_entry": null,
-      "prob_at_entry": null,
-      "strike": null,
-      "btc_price_at_entry": null
-    }
-  ]
+  "trades_total_logged": 0,
+  "recent_trades": []
 }
