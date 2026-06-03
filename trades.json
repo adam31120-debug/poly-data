@@ -50667,5 +50667,23 @@
     "btc_at_entry": 66625.08,
     "strike": 66602.54,
     "strategy_version": "01"
+  },
+  {
+    "timestamp": "2026-06-03T14:29:14.697323+00:00",
+    "market": "btc-updown-5m-1780496700",
+    "strategy": "delta_anomaly",
+    "side": "UP",
+    "action": "BUY",
+    "buy_price": 0.62,
+    "buy_size": 4.0,
+    "buy_filled": true,
+    "sl_price": 0.37,
+    "balance_before": null,
+    "residual_at_entry": -0.2164,
+    "ttl_at_entry": 46,
+    "vol_at_entry": 0.6081,
+    "btc_at_entry": 66628.66,
+    "strike": 66611.44,
+    "strategy_version": "01"
   }
 ]
