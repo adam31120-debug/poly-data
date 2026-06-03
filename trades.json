@@ -51287,7 +51287,10 @@
     "vol_at_entry": 0.6515,
     "btc_at_entry": 64130.48,
     "strike": 64171.41,
-    "strategy_version": "01"
+    "strategy_version": "01",
+    "redeemed": false,
+    "market_outcome": "LOST",
+    "pnl_usdc": -2.95
   },
   {
     "timestamp": "2026-06-03T23:49:09.797653+00:00",
