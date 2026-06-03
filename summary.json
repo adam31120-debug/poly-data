@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-03T18:49:51.614216+00:00",
+  "updated_at": "2026-06-03T18:50:01.145794+00:00",
   "bot": {
-    "started_at": "2026-06-03T18:18:38.013242+00:00",
-    "uptime_seconds": 1873
+    "started_at": "2026-06-03T18:49:50.227856+00:00",
+    "uptime_seconds": 10
   },
   "config": {
     "strategy": "delta_anomaly",
     "min_resid": 0.1,
-    "min_buy": 0.3,
+    "min_buy": 0.55,
     "sl": 0.25,
     "trade_pct": 0.01,
     "check_interval": 0.5,
@@ -19,12 +19,12 @@
     "end_time": 1780512600
   },
   "session_stats": {
-    "trades_count": 3,
-    "resolved": 1,
-    "pending": 2,
+    "trades_count": 0,
+    "resolved": 0,
+    "pending": 0,
     "wins": 0,
     "losses": 0,
-    "flats": 1,
+    "flats": 0,
     "net_pnl_usdc": 0.0,
     "gross_buy_usdc": 0.0
   },
@@ -39,8 +39,8 @@
     "gross_buy_usdc": 5848.8889
   },
   "db_stats": {
-    "snapshots_count": 147668,
-    "trades_events_count": 106
+    "snapshots_count": 147573,
+    "trades_events_count": 104
   },
   "trades_total_logged": 2129,
   "recent_trades": [
