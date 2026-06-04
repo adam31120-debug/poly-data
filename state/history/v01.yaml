@@ -1,0 +1,18 @@
+# Strategie active - mutee par Hermes (ou reflect.py --fallback)
+# A chaque cycle de reflection, UNE variable change selon les bornes de strategy_schema.yaml.
+# Avant edition : sauvegarder la version courante dans state/history/v{NNNN}.yaml.
+
+version: "01"
+
+# === Strategie anomaly ===
+anomaly_min_resid: 0.10        # Residuel minimum pour trigger (en cents)
+anomaly_min_token_move: 0.02   # Mouvement token minimum pour considerer le tick
+anomaly_min_buy: 0.55          # Prix d'achat minimum (sous ce seuil = trop speculatif). Bucket 0.30-0.40 = 8% win rate, evite.
+anomaly_sl: 0.25               # Stop-loss en cents en dessous du prix d'achat
+anomaly_max_ttl: 60            # Entrer uniquement si TTL <= ce nb de secondes
+
+# === Volatilite blendee (annualisee, source unique) ===
+vol_window_short_min: 20       # Fenetre courte en minutes pour realized vol
+vol_window_long_min: 60        # Fenetre longue en minutes
+vol_blend_weight: 1.0          # 1.0 = 100% short, 0.0 = 100% long, 0.5 = moyenne
+vol_min_annual: 0.20           # Vol annualisee minimum pour autoriser un trade
