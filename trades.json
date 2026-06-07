@@ -56240,6 +56240,9 @@
     "vol_at_entry": 0.2861,
     "btc_at_entry": 60899.58,
     "strike": 60856.6,
-    "strategy_version": "09"
+    "strategy_version": "09",
+    "market_outcome": "WON",
+    "redeemed": true,
+    "pnl_usdc": 1.15
   }
 ]
