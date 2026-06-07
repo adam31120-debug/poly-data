@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-07T02:47:22.306176+00:00",
+  "updated_at": "2026-06-07T02:50:05.443861+00:00",
   "bot": {
     "started_at": "2026-06-03T19:09:25.014684+00:00",
-    "uptime_seconds": 286677
+    "uptime_seconds": 286840
   },
   "config": {
     "strategy": "delta_anomaly",
@@ -14,32 +14,32 @@
     "no_buy_window_max_s": 300
   },
   "current_market": {
-    "slug": "btc-updown-5m-1780800300",
-    "strike": 61287.33993600636,
-    "end_time": 1780800600
+    "slug": null,
+    "strike": null,
+    "end_time": null
   },
   "session_stats": {
     "trades_count": 303,
-    "resolved": 211,
-    "pending": 92,
-    "wins": 140,
-    "losses": 71,
+    "resolved": 213,
+    "pending": 90,
+    "wins": 141,
+    "losses": 72,
     "flats": 0,
-    "net_pnl_usdc": -60.334,
+    "net_pnl_usdc": -62.384,
     "gross_buy_usdc": 0.0
   },
   "lifetime_stats": {
     "trades_count": 2433,
-    "resolved": 2091,
-    "pending": 342,
-    "wins": 1162,
-    "losses": 470,
+    "resolved": 2093,
+    "pending": 340,
+    "wins": 1163,
+    "losses": 471,
     "flats": 459,
-    "net_pnl_usdc": -1124.5988,
+    "net_pnl_usdc": -1126.6488,
     "gross_buy_usdc": 5848.8889
   },
   "db_stats": {
-    "snapshots_count": 675138,
+    "snapshots_count": 675458,
     "trades_events_count": 408
   },
   "trades_total_logged": 2433,
@@ -141,9 +141,9 @@
       "buy_price": 0.64,
       "buy_filled_size": null,
       "sell_filled": false,
-      "market_outcome": null,
-      "redeemed": null,
-      "pnl_usdc": null,
+      "market_outcome": "LOST",
+      "redeemed": false,
+      "pnl_usdc": -3.2,
       "edge_at_entry": null,
       "prob_at_entry": null,
       "strike": 61263.16,
@@ -171,9 +171,9 @@
       "buy_price": 0.77,
       "buy_filled_size": null,
       "sell_filled": false,
-      "market_outcome": null,
-      "redeemed": null,
-      "pnl_usdc": null,
+      "market_outcome": "WON",
+      "redeemed": true,
+      "pnl_usdc": 1.15,
       "edge_at_entry": null,
       "prob_at_entry": null,
       "strike": 61266.75,
