@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-08T15:20:31.120416+00:00",
+  "updated_at": "2026-06-08T15:25:04.323550+00:00",
   "bot": {
     "started_at": "2026-06-03T19:09:25.014684+00:00",
-    "uptime_seconds": 418266
+    "uptime_seconds": 418539
   },
   "config": {
     "strategy": "delta_anomaly",
@@ -14,32 +14,32 @@
     "no_buy_window_max_s": 300
   },
   "current_market": {
-    "slug": "btc-updown-5m-1780932000",
-    "strike": 64159.55347180002,
-    "end_time": 1780932300
+    "slug": null,
+    "strike": null,
+    "end_time": null
   },
   "session_stats": {
     "trades_count": 451,
-    "resolved": 314,
-    "pending": 137,
-    "wins": 212,
+    "resolved": 315,
+    "pending": 136,
+    "wins": 213,
     "losses": 102,
     "flats": 0,
-    "net_pnl_usdc": -60.1354,
+    "net_pnl_usdc": -58.6854,
     "gross_buy_usdc": 0.0
   },
   "lifetime_stats": {
     "trades_count": 2581,
-    "resolved": 2194,
-    "pending": 387,
-    "wins": 1234,
+    "resolved": 2195,
+    "pending": 386,
+    "wins": 1235,
     "losses": 501,
     "flats": 459,
-    "net_pnl_usdc": -1124.4002,
+    "net_pnl_usdc": -1122.9502,
     "gross_buy_usdc": 5848.8889
   },
   "db_stats": {
-    "snapshots_count": 910693,
+    "snapshots_count": 911234,
     "trades_events_count": 556
   },
   "trades_total_logged": 2581,
@@ -171,9 +171,9 @@
       "buy_price": 0.71,
       "buy_filled_size": null,
       "sell_filled": false,
-      "market_outcome": null,
-      "redeemed": null,
-      "pnl_usdc": null,
+      "market_outcome": "WON",
+      "redeemed": true,
+      "pnl_usdc": 1.45,
       "edge_at_entry": null,
       "prob_at_entry": null,
       "strike": 64160.11,
