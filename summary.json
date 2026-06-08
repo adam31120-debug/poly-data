@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-08T04:15:04.901629+00:00",
+  "updated_at": "2026-06-08T04:19:26.415877+00:00",
   "bot": {
     "started_at": "2026-06-03T19:09:25.014684+00:00",
-    "uptime_seconds": 378339
+    "uptime_seconds": 378601
   },
   "config": {
     "strategy": "delta_anomaly",
@@ -14,14 +14,14 @@
     "no_buy_window_max_s": 300
   },
   "current_market": {
-    "slug": null,
-    "strike": null,
-    "end_time": null
+    "slug": "btc-updown-5m-1780892100",
+    "strike": 62966.573065,
+    "end_time": 1780892400
   },
   "session_stats": {
-    "trades_count": 418,
+    "trades_count": 419,
     "resolved": 289,
-    "pending": 129,
+    "pending": 130,
     "wins": 192,
     "losses": 97,
     "flats": 0,
@@ -29,9 +29,9 @@
     "gross_buy_usdc": 0.0
   },
   "lifetime_stats": {
-    "trades_count": 2548,
+    "trades_count": 2549,
     "resolved": 2169,
-    "pending": 379,
+    "pending": 380,
     "wins": 1214,
     "losses": 496,
     "flats": 459,
@@ -39,26 +39,11 @@
     "gross_buy_usdc": 5848.8889
   },
   "db_stats": {
-    "snapshots_count": 841083,
-    "trades_events_count": 523
+    "snapshots_count": 841596,
+    "trades_events_count": 524
   },
-  "trades_total_logged": 2548,
+  "trades_total_logged": 2549,
   "recent_trades": [
-    {
-      "timestamp": "2026-06-08T02:54:42.297452+00:00",
-      "market": "btc-updown-5m-1780887000",
-      "side": "UP",
-      "buy_price": 0.86,
-      "buy_filled_size": null,
-      "sell_filled": false,
-      "market_outcome": "WON",
-      "redeemed": true,
-      "pnl_usdc": 0.7,
-      "edge_at_entry": null,
-      "prob_at_entry": null,
-      "strike": 63033.61,
-      "btc_price_at_entry": null
-    },
     {
       "timestamp": "2026-06-08T03:14:07.408859+00:00",
       "market": "btc-updown-5m-1780888200",
@@ -192,6 +177,21 @@
       "edge_at_entry": null,
       "prob_at_entry": null,
       "strike": null,
+      "btc_price_at_entry": null
+    },
+    {
+      "timestamp": "2026-06-08T04:19:26.358644+00:00",
+      "market": "btc-updown-5m-1780892100",
+      "side": "DOWN",
+      "buy_price": 0.77,
+      "buy_filled_size": null,
+      "sell_filled": false,
+      "market_outcome": null,
+      "redeemed": null,
+      "pnl_usdc": null,
+      "edge_at_entry": null,
+      "prob_at_entry": null,
+      "strike": 62966.57,
       "btc_price_at_entry": null
     }
   ]
