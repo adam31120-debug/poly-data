@@ -59545,7 +59545,10 @@
     "vol_at_entry": 0.3787,
     "btc_at_entry": 63345.51,
     "strike": 63350.84,
-    "strategy_version": "11"
+    "strategy_version": "11",
+    "market_outcome": "WON",
+    "redeemed": true,
+    "pnl_usdc": 2.2
   },
   {
     "timestamp": "2026-06-08T20:09:28.413902+00:00",
@@ -59563,7 +59566,10 @@
     "vol_at_entry": 0.3861,
     "btc_at_entry": 63360.46,
     "strike": 63344.1,
-    "strategy_version": "11"
+    "strategy_version": "11",
+    "redeemed": false,
+    "market_outcome": "LOST",
+    "pnl_usdc": -2.9
   },
   {
     "timestamp": "2026-06-08T20:09:36.368369+00:00",
