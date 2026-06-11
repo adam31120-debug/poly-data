@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-11T11:39:27.541917+00:00",
+  "updated_at": "2026-06-11T11:40:05.578891+00:00",
   "bot": {
     "started_at": "2026-06-09T18:14:36.280706+00:00",
-    "uptime_seconds": 149091
+    "uptime_seconds": 149129
   },
   "config": {
     "strategy": "delta_anomaly",
@@ -14,32 +14,32 @@
     "no_buy_window_max_s": 300
   },
   "current_market": {
-    "slug": "btc-updown-5m-1781177700",
-    "strike": 63130.58255162451,
-    "end_time": 1781178000
+    "slug": null,
+    "strike": null,
+    "end_time": null
   },
   "session_stats": {
     "trades_count": 82,
-    "resolved": 64,
-    "pending": 18,
-    "wins": 45,
-    "losses": 19,
+    "resolved": 66,
+    "pending": 16,
+    "wins": 46,
+    "losses": 20,
     "flats": 0,
-    "net_pnl_usdc": -1.4735,
+    "net_pnl_usdc": -4.1735,
     "gross_buy_usdc": 0.0
   },
   "lifetime_stats": {
     "trades_count": 2768,
-    "resolved": 2324,
-    "pending": 444,
-    "wins": 1324,
-    "losses": 541,
+    "resolved": 2326,
+    "pending": 442,
+    "wins": 1325,
+    "losses": 542,
     "flats": 459,
-    "net_pnl_usdc": -1133.6237,
+    "net_pnl_usdc": -1136.3237,
     "gross_buy_usdc": 5848.8889
   },
   "db_stats": {
-    "snapshots_count": 1243805,
+    "snapshots_count": 1243874,
     "trades_events_count": 728
   },
   "trades_total_logged": 2768,
@@ -156,9 +156,9 @@
       "buy_price": 0.81,
       "buy_filled_size": null,
       "sell_filled": false,
-      "market_outcome": null,
-      "redeemed": null,
-      "pnl_usdc": null,
+      "market_outcome": "LOST",
+      "redeemed": false,
+      "pnl_usdc": -4.05,
       "edge_at_entry": null,
       "prob_at_entry": null,
       "strike": 63097.77,
@@ -186,9 +186,9 @@
       "buy_price": 0.73,
       "buy_filled_size": null,
       "sell_filled": false,
-      "market_outcome": null,
-      "redeemed": null,
-      "pnl_usdc": null,
+      "market_outcome": "WON",
+      "redeemed": true,
+      "pnl_usdc": 1.35,
       "edge_at_entry": null,
       "prob_at_entry": null,
       "strike": 63097.3,
