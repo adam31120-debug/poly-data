@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-12T03:49:42.987526+00:00",
+  "updated_at": "2026-06-12T03:49:50.710308+00:00",
   "bot": {
     "started_at": "2026-06-09T18:14:36.280706+00:00",
-    "uptime_seconds": 207306
+    "uptime_seconds": 207314
   },
   "config": {
     "strategy": "delta_anomaly",
@@ -19,9 +19,9 @@
     "end_time": 1781236200
   },
   "session_stats": {
-    "trades_count": 119,
+    "trades_count": 120,
     "resolved": 97,
-    "pending": 22,
+    "pending": 23,
     "wins": 68,
     "losses": 29,
     "flats": 0,
@@ -29,9 +29,9 @@
     "gross_buy_usdc": 0.0
   },
   "lifetime_stats": {
-    "trades_count": 2805,
+    "trades_count": 2806,
     "resolved": 2357,
-    "pending": 448,
+    "pending": 449,
     "wins": 1347,
     "losses": 551,
     "flats": 459,
@@ -39,26 +39,11 @@
     "gross_buy_usdc": 5848.8889
   },
   "db_stats": {
-    "snapshots_count": 1315259,
-    "trades_events_count": 765
+    "snapshots_count": 1315272,
+    "trades_events_count": 766
   },
-  "trades_total_logged": 2805,
+  "trades_total_logged": 2806,
   "recent_trades": [
-    {
-      "timestamp": "2026-06-11T23:49:09.702155+00:00",
-      "market": "btc-updown-5m-1781221500",
-      "side": "DOWN",
-      "buy_price": 0.73,
-      "buy_filled_size": null,
-      "sell_filled": false,
-      "market_outcome": "WON",
-      "redeemed": true,
-      "pnl_usdc": 1.35,
-      "edge_at_entry": null,
-      "prob_at_entry": null,
-      "strike": 63568.82,
-      "btc_price_at_entry": null
-    },
     {
       "timestamp": "2026-06-12T00:34:53.143431+00:00",
       "market": "btc-updown-5m-1781224200",
@@ -192,6 +177,21 @@
       "edge_at_entry": null,
       "prob_at_entry": null,
       "strike": null,
+      "btc_price_at_entry": null
+    },
+    {
+      "timestamp": "2026-06-12T03:49:50.667043+00:00",
+      "market": "btc-updown-5m-1781235900",
+      "side": "DOWN",
+      "buy_price": 0.73,
+      "buy_filled_size": null,
+      "sell_filled": false,
+      "market_outcome": null,
+      "redeemed": null,
+      "pnl_usdc": null,
+      "edge_at_entry": null,
+      "prob_at_entry": null,
+      "strike": 63383.78,
       "btc_price_at_entry": null
     }
   ]
