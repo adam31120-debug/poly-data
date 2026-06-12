@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-12T05:59:58.598023+00:00",
+  "updated_at": "2026-06-12T06:01:28.410650+00:00",
   "bot": {
     "started_at": "2026-06-09T18:14:36.280706+00:00",
-    "uptime_seconds": 215122
+    "uptime_seconds": 215212
   },
   "config": {
     "strategy": "delta_anomaly",
@@ -14,9 +14,9 @@
     "no_buy_window_max_s": 300
   },
   "current_market": {
-    "slug": "btc-updown-5m-1781243700",
-    "strike": 63276.92092673022,
-    "end_time": 1781244000
+    "slug": "btc-updown-5m-1781244000",
+    "strike": 63269.71562,
+    "end_time": 1781244300
   },
   "session_stats": {
     "trades_count": 123,
@@ -39,7 +39,7 @@
     "gross_buy_usdc": 5848.8889
   },
   "db_stats": {
-    "snapshots_count": 1325153,
+    "snapshots_count": 1325162,
     "trades_events_count": 769
   },
   "trades_total_logged": 2809,
