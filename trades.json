@@ -64669,5 +64669,23 @@
     "exit_price": 0.38,
     "pnl_per_token": -0.23,
     "pnl_usdc": -1.15
+  },
+  {
+    "timestamp": "2026-06-13T16:29:14.424505+00:00",
+    "market": "btc-updown-5m-1781367900",
+    "strategy": "delta_anomaly",
+    "side": "UP",
+    "action": "BUY",
+    "buy_price": 0.62,
+    "buy_size": 5.0,
+    "buy_filled": true,
+    "sl_price": 0.41,
+    "balance_before": null,
+    "residual_at_entry": -0.315,
+    "ttl_at_entry": 48,
+    "vol_at_entry": 0.2998,
+    "btc_at_entry": 63993.43,
+    "strike": 63947.59,
+    "strategy_version": "04"
   }
 ]
