@@ -1,8 +1,8 @@
-version: '06'
+version: '07'
 anomaly_min_resid: 0.1
 anomaly_min_token_move: 0.02
 anomaly_min_buy: 0.5
-anomaly_sl: 0.17
+anomaly_sl: 0.15
 anomaly_max_ttl: 60
 vol_window_short_min: 20
 vol_window_long_min: 60
