@@ -65841,5 +65841,23 @@
     "market_outcome": "WON",
     "redeemed": true,
     "pnl_usdc": 1.55
+  },
+  {
+    "timestamp": "2026-06-15T06:39:47.335229+00:00",
+    "market": "btc-updown-5m-1781505300",
+    "strategy": "delta_anomaly",
+    "side": "DOWN",
+    "action": "BUY",
+    "buy_price": 0.85,
+    "buy_size": 5.0,
+    "buy_filled": true,
+    "sl_price": 0.68,
+    "balance_before": null,
+    "residual_at_entry": 0.1126,
+    "ttl_at_entry": 16,
+    "vol_at_entry": 0.2543,
+    "btc_at_entry": 65767.14,
+    "strike": 65775.05,
+    "strategy_version": "06"
   }
 ]
