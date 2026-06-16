@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-16T09:15:40.041755+00:00",
+  "updated_at": "2026-06-16T09:16:38.229874+00:00",
   "bot": {
     "started_at": "2026-06-09T18:14:36.280706+00:00",
-    "uptime_seconds": 572463
+    "uptime_seconds": 572521
   },
   "config": {
     "strategy": "delta_anomaly",
@@ -39,7 +39,7 @@
     "gross_buy_usdc": 5848.8889
   },
   "db_stats": {
-    "snapshots_count": 1742997,
+    "snapshots_count": 1743062,
     "trades_events_count": 969
   },
   "trades_total_logged": 3009,
