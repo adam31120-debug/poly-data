@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-16T14:34:39.548280+00:00",
+  "updated_at": "2026-06-16T14:35:11.709755+00:00",
   "bot": {
     "started_at": "2026-06-09T18:14:36.280706+00:00",
-    "uptime_seconds": 591603
+    "uptime_seconds": 591635
   },
   "config": {
     "strategy": "delta_anomaly",
