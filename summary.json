@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-19T22:44:35.312090+00:00",
+  "updated_at": "2026-06-19T22:45:04.091238+00:00",
   "bot": {
     "started_at": "2026-06-09T18:14:36.280706+00:00",
-    "uptime_seconds": 880199
+    "uptime_seconds": 880227
   },
   "config": {
     "strategy": "delta_anomaly",
@@ -14,32 +14,32 @@
     "no_buy_window_max_s": 300
   },
   "current_market": {
-    "slug": "btc-updown-5m-1781908800",
-    "strike": 63220.10123682036,
-    "end_time": 1781909100
+    "slug": null,
+    "strike": null,
+    "end_time": null
   },
   "session_stats": {
     "trades_count": 527,
-    "resolved": 384,
-    "pending": 143,
+    "resolved": 386,
+    "pending": 141,
     "wins": 251,
-    "losses": 133,
+    "losses": 135,
     "flats": 0,
-    "net_pnl_usdc": -47.5824,
+    "net_pnl_usdc": -53.7324,
     "gross_buy_usdc": 0.0
   },
   "lifetime_stats": {
     "trades_count": 3213,
-    "resolved": 2644,
-    "pending": 569,
+    "resolved": 2646,
+    "pending": 567,
     "wins": 1530,
-    "losses": 655,
+    "losses": 657,
     "flats": 459,
-    "net_pnl_usdc": -1179.7326,
+    "net_pnl_usdc": -1185.8826,
     "gross_buy_usdc": 5848.8889
   },
   "db_stats": {
-    "snapshots_count": 2050575,
+    "snapshots_count": 2050629,
     "trades_events_count": 1173
   },
   "trades_total_logged": 3213,
@@ -171,9 +171,9 @@
       "buy_price": 0.55,
       "buy_filled_size": null,
       "sell_filled": false,
-      "market_outcome": null,
-      "redeemed": null,
-      "pnl_usdc": null,
+      "market_outcome": "LOST",
+      "redeemed": false,
+      "pnl_usdc": -2.75,
       "edge_at_entry": null,
       "prob_at_entry": null,
       "strike": 63207.15,
@@ -186,9 +186,9 @@
       "buy_price": 0.68,
       "buy_filled_size": null,
       "sell_filled": false,
-      "market_outcome": null,
-      "redeemed": null,
-      "pnl_usdc": null,
+      "market_outcome": "LOST",
+      "redeemed": false,
+      "pnl_usdc": -3.4,
       "edge_at_entry": null,
       "prob_at_entry": null,
       "strike": 63216.18,
