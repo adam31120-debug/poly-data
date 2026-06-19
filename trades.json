@@ -70242,5 +70242,17 @@
     "btc_at_entry": 62462.66,
     "strike": 62475.89,
     "strategy_version": "12"
+  },
+  {
+    "timestamp": "2026-06-19T07:44:16.592178+00:00",
+    "market": "btc-updown-5m-1781854800",
+    "strategy": "delta_anomaly",
+    "side": "DOWN",
+    "action": "SL_EXIT",
+    "buy_price": 0.57,
+    "buy_size": 5.0,
+    "exit_price": 0.29,
+    "pnl_per_token": -0.28,
+    "pnl_usdc": -1.4
   }
 ]
